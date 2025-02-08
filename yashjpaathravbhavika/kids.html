@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YY Fashion</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="kids.css">
+
+    <!-- FontAwesome & Boxicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <a href="#" class="logo"><img src="logo.png" alt="Logo"></a>
+        <ul class="navmenu">
+            <li><a href="men.html">MEN</a></li>
+            <li><a href="women.html">WOMEN</a></li>
+            <li><a href="kids.html" style="font-weight: 600;text-decoration: underline;">KIDS</a></li>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">TRENDING</a></li>
+            <li><a href="siignin.html">SIGN IN</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <div class="onelook">
+
+            <!-- Left Side: Text Content -->
+            <section class="main-text">
+                <h1 class="text1">FIND THE BEST FASHION<br> STYLE FOR YOU.</h1>
+                <p class="text2">
+                    “Step into CHAMPIONS, where style meets individuality. We offer a curated selection of trendy,
+                    high-quality clothing that lets you express yourself effortlessly. From everyday essentials to
+                    statement
+                    pieces, our collection is designed for those who appreciate fashion with a personal touch.”
+                </p>
+                <a href="shop.html" class="shopnow">SHOP NOW <i class='bx bx-right-arrow-alt'></i></a>
+            </section>
+
+            <!-- Right Side: Image -->
+            <section class="onephoto">
+                <img src="image15.jpg" alt="Fashion Look" style="border-bottom-left-radius: 25%;box-shadow: black;">
+            </section>
+        </div>
+
+
+        <section class="trending-products" id="trending">
+            <div class="center-text">
+                <h2>NEW COLLECTION</h2>
+                <p style="font-style: italic;">Introducing our latest collection where style, comfort, and innovation
+                    come together!</p>
+            </div>
+            <div class="products">
+                <div class="row">
+                    <img src="image2.webp" alt="image1">
+                    <div class="product-text">
+                        <h5>SALE</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <div>
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <h4>Shearling-lined trench coat</h4>
+                        <p>$150 -- $300 </p>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <img src="image3.webp" alt="image2">
+                    <div class="product-text">
+                        <h5>SALE</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star-half'></i>
+                    </div>
+                    <div class="cart">
+                        <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                    </div>
+                    <div class="price">
+                        <h4>Oversized WooL Long Coat</h4>
+                        <p>$200 -- $800 </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="image4.jpg" aly="image3">
+                    <div class="product-text">
+                        <h5>SALE</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star'></i>
+                        <i class='bx bx-star-half'></i>
+                    </div>
+                    <div class="cart">
+                        <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                    </div>
+                    <div class="price">
+                        <h4>Wool-Blend Long Coat</h4>
+                        <p>$300 -- $1,200</p>
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+
+        <div class="secondlook">
+            <!-- Left Side: Image -->
+            <section class="onephoto1">
+                <img src="image5.webp" alt="Fashion Look" style="border-bottom-left-radius: 25%;box-shadow: black;">
+            </section>
+
+            <!-- Right Side: Text Content -->
+            <section class="main-text1">
+                <h1 class="text11">BEST FASHION <br> SINCE 2020.</h1>
+                <p class="text21">
+                    "Since 2020, we've been redefining fashion with trendsetting styles, premium quality, and timeless
+                    designs. From everyday essentials to statement pieces, we blend comfort, innovation, and
+                    elegance—shaping the future of fashion, one outfit at a time!"
+                </p><br>
+                <a href="shop.html" class="shopnow1" style="justify-content:center;">SHOP NOW <i
+                        class='bx bx-right-arrow-alt'></i></a><br><br>
+                <div class="sales1">
+                    <div class="sales-data">
+                        <div class="sales-item">
+                            <div class="sales-number">2020</div>
+                            <div class="sales-label">CHAMPIONS FOUNDED</div>
+                        </div>
+                        <div class="sales-divider"></div>
+                        <div class="sales-item">
+                            <div class="sales-number">8900+</div>
+                            <div class="sales-label">PRODUCT SOLD</div>
+                        </div>
+                        <div class="sales-divider"></div>
+                        <div class="sales-item">
+                            <div class="sales-number">3105+</div>
+                            <div class="sales-label">BEST REVIEWS</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="ourproduct4">
+            <div class="onelook4">
+
+                <!-- Left Side: Text Content -->
+                <section class="main-text4">
+                    <h1 class="text14">BEST SELLER <br> PRODUCT</h1>
+                    <p class="text24">
+                        "Our best-seller a perfect blend of style, comfort, and quality!
+                    </p>
+                    <a href="shop.html" class="shopnow4">SHOP NOW <i class='bx bx-right-arrow-alt'></i></a>
+                </section>
+
+                <!-- Right Side: Image -->
+                <section class="onephoto4">
+                    <div class="row">
+                        <img src="image4.jpg" aly="image3">
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Wool-Blend Long Coat</h4>
+                            <p>$300 -- $1,200</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="image4.jpg" aly="image3">
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Wool-Blend Long Coat</h4>
+                            <p>$300 -- $1,200</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="image4.jpg" aly="image3">
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Wool-Blend Long Coat</h4>
+                            <p>$300 -- $1,200</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+        <section class="ourbestseller">
+
+            <div class="onelook2">
+
+                <!-- Left Side: Text Content -->
+                <section class="main-text23">
+                    <h1 class="text123">OUR PRODUCT</h1>
+                </section>
+
+                <ul class="navmenu1">
+                    <li><a href="#" style="font-weight: 600;text-decoration: underline;">HOT</a></li>
+                    <li><a href="#">ON SALE</a></li>
+                    <li><a href="#">TRENDING NOW</a></li>
+                    <li><a href="#">NEW ARRIVALS</a></li>
+                </ul>
+
+                <!-- Right Side: Image -->
+                <div class="products3">
+
+                    <div class="row3">
+                        <img src="image2.webp" alt="image1">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div>
+                            <div class="ratting">
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star-half'></i>
+                            </div>
+                            <div class="cart">
+                                <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h4>Shearling-lined trench coat</h4>
+                            <p>$150 -- $300 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image2.webp" alt="image1">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div>
+                            <div class="ratting">
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star-half'></i>
+                            </div>
+                            <div class="cart">
+                                <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h4>Shearling-lined trench coat</h4>
+                            <p>$150 -- $300 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image2.webp" alt="image1">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div>
+                            <div class="ratting">
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star-half'></i>
+                            </div>
+                            <div class="cart">
+                                <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h4>Shearling-lined trench coat</h4>
+                            <p>$150 -- $300 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image2.webp" alt="image1">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div>
+                            <div class="ratting">
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star-half'></i>
+                            </div>
+                            <div class="cart">
+                                <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h4>Shearling-lined trench coat</h4>
+                            <p>$150 -- $300 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image2.webp" alt="image1">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div>
+                            <div class="ratting">
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star-half'></i>
+                            </div>
+                            <div class="cart">
+                                <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h4>Shearling-lined trench coat</h4>
+                            <p>$150 -- $300 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image3.webp" alt="image2">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Oversized WooL Long Coat</h4>
+                            <p>$200 -- $800 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image4.jpg" aly="image3">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Wool-Blend Long Coat</h4>
+                            <p>$300 -- $1,200</p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image3.webp" alt="image2">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Oversized WooL Long Coat</h4>
+                            <p>$200 -- $800 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image3.webp" alt="image2">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Oversized WooL Long Coat</h4>
+                            <p>$200 -- $800 </p>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <img src="image3.webp" alt="image2">
+                        <div class="product-text">
+                            <h5>SALE</h5>
+                        </div>
+
+                        <div class="ratting">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star-half'></i>
+                        </div>
+                        <div class="cart">
+                            <button class="add-to-cart-btn" onclick="addToCart()" >Add to Cart</button>
+                        </div>
+                        <div class="price">
+                            <h4>Oversized WooL Long Coat</h4>
+                            <p>$200 -- $800 </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="dealoftheday">
+            <div class="deal-container">
+                <div class="deal-text">
+                    <h2>DEAL OF THE DAY<span>.</span></h2>
+                    <p>"Soft, stylish, and effortlessly elegant—our pastel long sleeve is a must-have for any wardrobe."
+                    </p>
+                    <div class="countdown">
+                        <div class="timer"><span>09</span>DAY</div>
+                        <div class="timer"><span>03</span>HOUR</div>
+                        <div class="timer"><span>03</span>MIN</div>
+                    </div>
+                    <a href="shop.html" class="shopnow5">SHOP NOW <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="deal-image">
+                    <img src="image8.webp" alt="Deal of the Day">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="testimonial-section">
+            <h2>WHAT PEOPLE SAYS ABOUT US</h2>
+            <p class="subheading">"Our customers love us for our trendy styles, premium quality, and exceptional
+                service—see what they are saying!"</p>
+
+            <div class="testimonials">
+                <div class="testimonial-box">
+                    <h3>"Absolutely love the quality and style—every piece feels premium and fits perfectly!"</h3>
+                    <p>"I absolutely love the quality and style of the clothes from this store! Every piece feels
+                        premium, fits perfectly, and adds a trendy touch to my wardrobe. Definitely my go-to for
+                        fashion!"</p>
+                    <div class="customer-info">
+                        <img src="image15.jpg" alt="Customer">
+                        <div>
+                            <h4>YASH KARANDE</h4>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-box">
+                    <h3>"Absolutely love the quality and style—every piece feels premium and fits perfectly!"</h3>
+                    <p>"I absolutely love the quality and style of the clothes from this store! Every piece feels
+                        premium, fits perfectly, and adds a trendy touch to my wardrobe. Definitely my go-to for
+                        fashion!"</p>
+                    <div class="customer-info">
+                        <img src="image15.jpg" alt="Customer">
+                        <div>
+                            <h4>YASH KARANDE</h4>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-box">
+                    <h3>"Absolutely love the quality and style—every piece feels premium and fits perfectly!"</h3>
+                    <p>"I absolutely love the quality and style of the clothes from this store! Every piece feels
+                        premium, fits perfectly, and adds a trendy touch to my wardrobe. Definitely my go-to for
+                        fashion!"</p>
+                    <div class="customer-info">
+                        <img src="image15.jpg" alt="Customer">
+                        <div>
+                            <h4>YASH KARANDE</h4>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-box">
+                    <h3>"Absolutely love the quality and style—every piece feels premium and fits perfectly!"</h3>
+                    <p>"I absolutely love the quality and style of the clothes from this store! Every piece feels
+                        premium, fits perfectly, and adds a trendy touch to my wardrobe. Definitely my go-to for
+                        fashion!"</p>
+                    <div class="customer-info">
+                        <img src="image15.jpg" alt="Customer">
+                        <div>
+                            <h4>YASH KARANDE</h4>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="fashion-gallery">
+        <div class="gallery-container">
+            <div class="image-box"><img style="width: 210px;height: 323px;"  src="image1.webp" alt="Model 1" ></div>
+            <div class="image-box"><img src="image2.webp" alt="Model 2"></div>
+            <div class="image-box"><img src="image3.webp" alt="Model 3"></div>
+            <div class="image-box"><img src="image4.jpg" alt="Model 4"></div>
+            <div class="image-box"><img style="width: 210px;height: 323px;"  src="image6.avif" alt="Model 5"></div>
+        </div>
+    </section>
+
+    <footer style="color: none" class="footer">
+        <div class="footer-content">
+            <p class="instagram">FOLLOW US ON INSTAGRAM: <span>@CHAMPIONS_TRNDS</span></p>
+            <p class="copyright" style="font-size: 10px;font-style: bold;">© COPYRIGHT CHAMPIONS. ALL RIGHTS ARE RESERVED.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
