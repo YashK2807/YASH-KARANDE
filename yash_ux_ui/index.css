@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1509px;
+    height: 6103px;
+    position: relative;
+    background: white;
+}
+
+.champions-title {
+    width: 154px;
+    height: 35px;
+    position: absolute;
+    left: 188px;
+    top: -279px;
+    color: black;
+    font-size: 32px;
+    font-family: Jaro;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.menu {
+    width: 678px;
+    left: 417px;
+    top: -273px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 4px 0px 8.8px rgba(0, 0, 0, 0.25);
+}
+
+.menu-item {
+    color: black;
+    font-size: 20px;
+    font-family: Hanuman;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 29.31px;
+    letter-spacing: 3.20px;
+    word-wrap: break-word;
+}
+
+.login {
+    width: 97px;
+    height: 21px;
+    position: absolute;
+    left: 1236px;
+    top: -269px;
+    color: black;
+    font-size: 20px;
+    font-family: Hind Vadodara;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 29.98px;
+    letter-spacing: 3.20px;
+    word-wrap: break-word;
+}
+
+.main-title {
+    width: 658px;
+    height: 282px;
+    position: absolute;
+    left: 169px;
+    top: 205px;
+    color: black;
+    font-size: 66px;
+    font-family: Frank Ruhl Libre;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 78.19px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.description {
+    width: 340px;
+    height: 155px;
+    position: absolute;
+    left: 193px;
+    top: 555px;
+    color: black;
+    font-size: 15px;
+    font-family: Farro;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 17.77px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.shop-now {
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    left: 244px;
+    top: 812px;
+    background: #030303;
+    border-radius: 16px;
+    color: white;
+    font-size: 24px;
+    font-family: Farro;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 28.43px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.new-collection-title {
+    width: 765px;
+    height: 108px;
+    position: absolute;
+    left: 405px;
+    top: 1029px;
+    color: #540B0E;
+    font-size: 96px;
+    font-family: Hanalei Fill;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.new-collection-description {
+    width: 1000px;
+    height: 43px;
+    position: absolute;
+    left: 288px;
+    top: 1153px;
